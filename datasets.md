@@ -1,0 +1,2 @@
+The orginal datasets.rar provided by [https://github.com/lee-zq/VesselSeg-Pytorch] is not easy to download. So here I put a Google Drive link:
+[https://drive.google.com/file/d/1SWHA_6N53rbLrj7AGSKda-xo5uGun8V7/view?usp=sharing]
