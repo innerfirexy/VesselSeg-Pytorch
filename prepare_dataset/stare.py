@@ -24,14 +24,14 @@ def write_path_list(name_list, save_path, file_name):
 
 if __name__ == "__main__":
     #------------Path of the dataset --------------------------------
-    data_root_path = '/ssd/lzq/projects/vesselseg/data'
+    data_root_path = '/Users/xy/GitHub/VesselSeg-Pytorch/datasets'
     # if not os.path.exists(data_root_path): raise ValueError("data path is not exist, Please make sure your data path is correct")
     #train
     img = "STARE/images"
     gt = "STARE/1st_labels_ah"
     fov = "STARE/mask"
     #---------------save path-----------------------------------------
-    save_path = "./prepare_dataset/data_path_list/STARE"
+    save_path = "./data_path_list/STARE"
     if not os.path.exists(save_path):
         os.mkdir(save_path)
     #-----------------------------------------------------------------
