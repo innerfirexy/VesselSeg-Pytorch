@@ -24,14 +24,14 @@ def write_path_list(name_list, save_path, file_name):
 
 if __name__ == "__main__":
     #------------Path of the dataset --------------------------------
-    data_root_path = '/ssd/lzq/projects/vesselseg/data'
+    data_root_path = '/Users/xu_sh/Downloads/datasets'
     # if not os.path.exists(data_root_path): raise ValueError("data path is not exist, Please make sure your data path is correct")
     #train
     img = "CHASEDB1/images"
     gt = "CHASEDB1/1st_label"
     fov = "CHASEDB1/mask"
     #---------------save path-----------------------------------------
-    save_path = "./prepare_dataset/data_path_list/CHASEDB1"
+    save_path = "./data_path_list/CHASEDB1"
     if not os.path.exists(save_path):
         os.mkdir(save_path)
     #-----------------------------------------------------------------
