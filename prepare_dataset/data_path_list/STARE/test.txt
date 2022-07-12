@@ -1,0 +1,5 @@
+/Users/xu_sh/Downloads/datasets\STARE/images\im0001.ppm /Users/xu_sh/Downloads/datasets\STARE/1st_labels_ah\im0001.ah.ppm /Users/xu_sh/Downloads/datasets\STARE/mask\mask_0001.png
+/Users/xu_sh/Downloads/datasets\STARE/images\im0002.ppm /Users/xu_sh/Downloads/datasets\STARE/1st_labels_ah\im0002.ah.ppm /Users/xu_sh/Downloads/datasets\STARE/mask\mask_0002.png
+/Users/xu_sh/Downloads/datasets\STARE/images\im0003.ppm /Users/xu_sh/Downloads/datasets\STARE/1st_labels_ah\im0003.ah.ppm /Users/xu_sh/Downloads/datasets\STARE/mask\mask_0003.png
+/Users/xu_sh/Downloads/datasets\STARE/images\im0004.ppm /Users/xu_sh/Downloads/datasets\STARE/1st_labels_ah\im0004.ah.ppm /Users/xu_sh/Downloads/datasets\STARE/mask\mask_0004.png
+/Users/xu_sh/Downloads/datasets\STARE/images\im0005.ppm /Users/xu_sh/Downloads/datasets\STARE/1st_labels_ah\im0005.ah.ppm /Users/xu_sh/Downloads/datasets\STARE/mask\mask_0005.png
