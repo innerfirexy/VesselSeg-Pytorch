@@ -3,7 +3,7 @@ import os,joblib
 import torch,random
 import torch.nn as nn
 import cv2,imageio,PIL
-from libtiff import TIFFfile
+# from libtiff import TIFFfile # Not used
 
 def readImg(img_path):
     """
