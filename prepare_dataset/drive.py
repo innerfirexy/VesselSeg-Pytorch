@@ -4,10 +4,11 @@
 #
 #=========================================================
 import os
-import h5py,cv2,imageio
-import numpy as np
-from PIL import Image
 from os.path import join
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--input', '-i', type=str, help='path to input dataset. Use the full path please')
 
 def get_path_list(root_path,img_path,label_path,fov_path):
     tmp_list = [img_path,label_path,fov_path]
@@ -26,9 +27,11 @@ def write_path_list(name_list, save_path, file_name):
     f.close()
 
 if __name__ == "__main__":
+    args = parser.parse_args()
     #------------Path of the dataset -------------------------
-    data_root_path = '/Users/xy/GitHub/VesselSeg-Pytorch/datasets'
-    # if not os.path.exists(data_root_path): raise ValueError("data path is not exist, Please make sure your data path is correct")
+    data_root_path = args.input
+    if not os.path.exists(data_root_path): 
+        raise ValueError("data path is not exist, Please make sure your data path is correct")
     #train
     img_train = "DRIVE/training/images/"
     gt_train = "DRIVE/training/1st_manual/"
