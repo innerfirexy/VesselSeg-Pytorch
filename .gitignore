@@ -1,5 +1,6 @@
 # my options 
 data/
+prepare_dataset/data_path_list/
 !/data/README.md
 experiments/*
 !experiments/README.md
